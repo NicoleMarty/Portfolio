@@ -209,6 +209,8 @@ you can use the generic selector below, but it's slower:
 
 .icon-camera:before {
     content: "\e012";
+    font-size: 48px;
+    color: black;
 }
 
 .icon-printer:before {
@@ -341,12 +343,12 @@ you can use the generic selector below, but it's slower:
 
 .icon-tools:before {
     content: "\e033";
+    font-size: 48px;
+    color: black;
 }
 
 .icon-tools-2:before {
     content: "\e034";
-    font-size: 64px;
-    color: black;
 }
 
 .icon-scissors:before {
@@ -375,6 +377,8 @@ you can use the generic selector below, but it's slower:
 
 .icon-strategy:before {
     content: "\e03b";
+    font-size: 48px;
+    color: black;
 }
 
 .icon-beaker:before {
@@ -535,4 +539,11 @@ you can use the generic selector below, but it's slower:
 
 .icon-dribbble:before {
     content: "\e063";
+}
+
+
+/* ADDITONAL CSS */
+
+.card-action {
+    text-align: center;
 }
