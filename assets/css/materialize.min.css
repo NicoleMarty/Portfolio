@@ -1,5 +1,7 @@
+.parallax,
 .parallax-container {
     max-height: 750px;
+    max-width: 100%;
 }
 
 
