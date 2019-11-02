@@ -1,3 +1,15 @@
+#navbar-row.row {
+    margin: 0px;
+}
+
+#heroImage {
+    min-height: 957px;
+}
+
+a {
+    text-decoration: none;
+}
+
 @font-face {
     font-family: 'et-line';
     src: url('fonts/et-line.eot');

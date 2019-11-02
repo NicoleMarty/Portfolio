@@ -4,6 +4,18 @@
     max-width: 100%;
 }
 
+#navbar-row {
+    margin: 0px;
+}
+
+#heading-section {
+    padding-top: 0px;
+}
+
+#heroImage {
+    min-height: 700px;
+}
+
 
 /* ELEGENT THEMES ICON FONT */
 
