@@ -32,10 +32,12 @@ a {
 
 /* MEDIA BREAKPOINTS FOR HEADER IMAGE AT DIFFERENT SCREEN SIZES */
 
-@media screen and (max-width: 479px) {
+@media screen and (min-width: 300px) {
     #heroImage,
     #main-img {
         background-image: url("../images/xsmall-header.jpg");
+        background-size: cover;
+        min-height: 350px;
     }
 }
 
@@ -44,6 +46,7 @@ a {
     #main-img {
         background-image: url("../images/xsmall-image.jpg");
         background-size: cover;
+        min-height: 350px;
     }
 }
 
@@ -52,6 +55,7 @@ a {
     #main-img {
         background-image: url("../images/xsmall-image.jpg");
         background-size: cover;
+        min-height: 350px;
     }
 }
 
