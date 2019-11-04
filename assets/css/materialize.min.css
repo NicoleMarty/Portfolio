@@ -12,9 +12,7 @@
     padding-top: 0px;
 }
 
-#heroImage {
-    min-height: 700px;
-}
+#heroImage {}
 
 #objective-statement {
     background-color: rgb(77, 75, 75);
@@ -53,6 +51,7 @@ a {
     #heroImage,
     #main-img {
         background-image: url("../images/xsmall-image.jpg");
+        background-size: cover;
     }
 }
 
@@ -60,6 +59,8 @@ a {
     #heroImage,
     #main-img {
         background-image: url("../images/header.jpg");
+        background-size: cover;
+        min-height: 700px;
     }
 }
 
@@ -67,6 +68,7 @@ a {
     #main-img {
         background-image: url("../images/header.jpg");
         background-size: cover;
+        min-height: 700px;
     }
 }
 
