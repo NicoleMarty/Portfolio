@@ -32,29 +32,41 @@ a {
 }
 
 
-/* MEDIA QUERIES FOR HEADER IMAGE AT DIFFERENT SCREEN SIZES */
+/* MEDIA BREAKPOINTS FOR HEADER IMAGE AT DIFFERENT SCREEN SIZES */
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 479px) {
+    #heroImage,
     #main-img {
-        background-image: url("images/small-header-image.jpg");
+        background-image: url("../images/xsmall-header.jpg");
+    }
+}
+
+@media screen and (min-width: 480px) {
+    #heroImage,
+    #main-img {
+        background-image: url("../images/xsmall-image.jpg");
+        background-size: cover;
     }
 }
 
 @media screen and (min-width: 768px) {
+    #heroImage,
     #main-img {
-        background-image: url("images/small-header-image.jpg");
+        background-image: url("../images/xsmall-image.jpg");
     }
 }
 
 @media (min-width: 992px) {
+    #heroImage,
     #main-img {
-        background-image: url("assets/images/header.jpg");
+        background-image: url("../images/header.jpg");
     }
 }
 
 @media (min-width: 1200px) {
     #main-img {
-        background-image: url("assets/images/header.jpg");
+        background-image: url("../images/header.jpg");
+        background-size: cover;
     }
 }
 
