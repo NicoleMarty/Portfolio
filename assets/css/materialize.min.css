@@ -5,14 +5,12 @@
 }
 
 #navbar-row {
-    margin: 0px;
+    margin: 0em;
 }
 
 #heading-section {
     padding-top: 0px;
 }
-
-#heroImage {}
 
 #objective-statement {
     background-color: rgb(77, 75, 75);
@@ -97,6 +95,10 @@ a {
 
 .icon-tools {
     font-size: 4rem;
+}
+
+.icon-linkedin {
+    font-size: 2rem;
 }
 
 
