@@ -27,6 +27,37 @@ a {
     color: black;
 }
 
+.card-action {
+    text-align: center;
+}
+
+
+/* MEDIA QUERIES FOR HEADER IMAGE AT DIFFERENT SCREEN SIZES */
+
+@media screen and (max-width: 767px) {
+    #main-img {
+        background-image: url("images/small-header-image.jpg");
+    }
+}
+
+@media screen and (min-width: 768px) {
+    #main-img {
+        background-image: url("images/small-header-image.jpg");
+    }
+}
+
+@media (min-width: 992px) {
+    #main-img {
+        background-image: url("assets/images/header.jpg");
+    }
+}
+
+@media (min-width: 1200px) {
+    #main-img {
+        background-image: url("assets/images/header.jpg");
+    }
+}
+
 
 /* ELEGENT THEMES ICON FONT */
 
