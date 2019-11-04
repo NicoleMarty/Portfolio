@@ -16,6 +16,17 @@
     min-height: 700px;
 }
 
+#objective-statement {
+    background-color: rgb(77, 75, 75);
+    opacity: 40%;
+    padding: 1rem;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
 
 /* ELEGENT THEMES ICON FONT */
 
