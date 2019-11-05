@@ -52,6 +52,12 @@ a {
 }
 
 
+/*.contact {
+    background-image: url("../images/contact.jpg");
+    color: white;
+}*/
+
+
 /* MEDIA BREAKPOINTS FOR HEADER IMAGE AT DIFFERENT SCREEN SIZES */
 
 @media screen and (min-width: 300px) {
