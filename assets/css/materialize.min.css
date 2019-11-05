@@ -27,6 +27,17 @@ a {
     text-align: center;
 }
 
+#valueadd,
+#github {
+    max-width: 6rem;
+    max-height: 6rem;
+}
+
+#linkedin {
+    max-width: 5.5rem;
+    max-height: 5.5rem;
+}
+
 
 /* MEDIA BREAKPOINTS FOR HEADER IMAGE AT DIFFERENT SCREEN SIZES */
 
