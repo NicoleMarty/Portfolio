@@ -43,6 +43,8 @@ a {
 
 #objective-statement {
     padding: 1rem;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 2em;
 }
 
 .background {
