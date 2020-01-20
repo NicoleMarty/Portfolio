@@ -59,6 +59,7 @@ p.flow-text {
 .contact {
   background-image: url("../images/contact-background.jpg");
   color: white;
+  padding: 10px;
 }
 
 #linkedin,
