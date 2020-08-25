@@ -19,10 +19,28 @@ a {
 
 .card-action {
   text-align: center;
+  margin: 0px;
+  padding-bottom: 0px;
 }
 
-.card-action:hover {
+.description {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-bottom: 1.5rem;
+  min-height: 110.5px;
+}
+
+.card-title:hover {
+  padding: 1.5rem;
   background-color: #eeff41;
+}
+
+.card-title {
+  padding: 1.5rem;
+}
+
+.card .card-content {
+  padding: 0px;
 }
 
 .aboutme {
@@ -31,14 +49,16 @@ a {
 }
 
 #valueadd,
-#github {
+#github,
+#linkedin {
   max-width: 6rem;
   max-height: 6rem;
+  padding-top: 1.5rem;
 }
 
 #linkedin {
-  max-width: 5.5rem;
-  max-height: 5.5rem;
+  max-width: 6rem;
+  max-height: 6rem;
 }
 
 #objective-statement {
@@ -112,10 +132,11 @@ p.flow-text {
 }
 
 @media (min-width: 1200px) {
+  #heroImage,
   #main-img {
     background-image: url("../images/header.jpg");
     background-size: cover;
-    min-height: 700px;
+    min-height: 100vh;
   }
 }
 
